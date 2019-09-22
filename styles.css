@@ -3,7 +3,7 @@ body, html{
 }
 
 #painting {
-background-color: #fff4db;
+background-color: #f6f6f6;
 width: 400px;
 height: 400px;
 margin-top: 30px;
@@ -46,6 +46,7 @@ box-shadow: 10px 10px 0px #8d8d8d;
 .mediumbox{
     width: 100ps;
     height: 140px;
+    background-color: green;
 }
 
 #divider2 {
@@ -75,11 +76,13 @@ width: 10px;
 .middlebox {
     width: 260px;
     height: 100px;
+    background-color: purple;
 }
 
 .smallerbox{
     height: 45px;
     width: 20px;
+    background-color: teal;
 }
 
 #divider5 {
@@ -91,8 +94,14 @@ width: 10px;
     float: middle;
 }
 
-#smallestbox {
+.smallestbox {
     height: 45px;
     width: 20px;
+    background-color: blue;
+
+
+}
+#smallbox{
+    background-color: yellow;
 
 }
